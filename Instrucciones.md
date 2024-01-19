@@ -1,4 +1,16 @@
 # Git
+## Comandos para la configuracion de git bash
+```
+Git config global --list
+```
+Git config global user.name nombre 
+```
+Git config global user.email correo
+```
+## Comandos para generar SSH
+```
+ssh-keygen -t rsa -b 4096 -C "algo@gmail.com"
+```
 ## Comandos para la recuperacion de versiones
 ```
 git branch Nombre_Rama
